@@ -1,19 +1,16 @@
-import './Home.css'
 import {motion} from 'framer-motion'
+import './Projects.css'
 
-const Home = () =>{
+const Projects = () =>{
     return(
-        <motion.div 
-        className='bio'
+        <motion.div className='project'
         initial = {{opacity: 0, transition:{duration:1}}}
         animate = {{opacity: 1, transition:{duration:1}}}
         exit = {{opacity: 0, transition:{duration:1}}}
         >
-
-        <h1>My Name is Hoang Nguyen</h1>
-        <h2>I am a Front-End Developer specializing in React.js</h2>
+            <h1>OMG</h1>
         </motion.div>
     )
 }
 
-export default Home
+export default Projects

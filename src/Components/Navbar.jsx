@@ -6,8 +6,9 @@ const Navbar = () => {
     return(
         <nav className='NavBar'>
         <Link to='/' className='navList'>Home</Link>
-        <Link to='src/Components/Contact.jsx' className='navList'>Contact</Link>
-        <Link className='navList'>Projects</Link>
+        <Link to= 'Projects' className='navList'>Projects</Link>
+        <Link to='Contact' className='navList'>Contact</Link>
+
       </nav>
     )
 
