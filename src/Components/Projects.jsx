@@ -8,7 +8,35 @@ const Projects = () =>{
         animate = {{opacity: 1, transition:{duration:1}}}
         exit = {{opacity: 0, transition:{duration:1}}}
         >
-            <h1>OMG</h1>
+            <div className='divBox'>
+                <h1 className='title'>NBA Team App</h1>
+                <img src="src/images/NBATeamappimg.PNG" alt="" height= '50%' width='50%'/>
+                <div className='boxSize'>
+                    <p>This web app is an NBA app which shows all 30 NBA teams. 
+                        Each team when hovered will show their best or their franchise player from that team. 
+                        The web apps uses React.js as a JavaScript library. 
+                        The web app utilizes mapping to grab data from the json file.</p>
+                        <div>
+                            <a className ='aButton' href="https://github.com/juang274/u3_project/tree/main/u3project"> Code</a>
+                            <a className ='aButton' href="https://hnguyenweb.surge.sh/">App</a>
+                        </div>
+                </div>                
+            </div>
+
+            <div className='divBox'>
+                <h1 className='title'>Web Search Engine</h1>
+                <img src="src/images/websearchimage.PNG" alt="" height='50%' width='50%'/>
+                <div className='boxSize'>
+                    <p>This is a web search engine utilizing only Html and Css. 
+                        One of my early projects to show what I could to without JavaScript or any other libraries. 
+                        It acts very similar to a real search engine but without a server and data.</p>
+                        <div>
+                            <a className ='aButton' href="https://github.com/juang274/project-1"> Code</a>
+                        </div>
+                </div>            
+            </div>
+
+
         </motion.div>
     )
 }
