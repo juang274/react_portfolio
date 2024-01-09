@@ -18,7 +18,7 @@ const Projects = () =>{
                         It also contains framer-motion to animate things like buttons. </p>
                         <div>
                             <a className ='aButton' href="https://github.com/juang274/react_portfolio"> Code</a>
-                            <a className ='aButton' href="https://hnguyenweb.surge.sh/">App</a>
+                            <a className ='aButton' href="https://hoangportfolio.surge.sh/">App</a>
                         </div>
                 </div>                
             </div>
