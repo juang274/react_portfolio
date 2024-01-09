@@ -9,6 +9,21 @@ const Projects = () =>{
         exit = {{opacity: 0, transition:{duration:1}}}
         >
             <div className='divBox'>
+                <h1 className='title'>My Portfolio</h1>
+                <img src="src/images/Portfolio.PNG" alt="" height= '50%' width='50%'/>
+                <div className='boxSize'>
+                    <p>This is my personal portfolio containing my projects and my contacts. 
+                        The portfolio uses React.js as the JavaScript library. 
+                        It utilizes various React functions such as Router which allows it to access to different pages. 
+                        It also contains framer-motion to animate things like buttons. </p>
+                        <div>
+                            <a className ='aButton' href="https://github.com/juang274/react_portfolio"> Code</a>
+                            <a className ='aButton' href="https://hnguyenweb.surge.sh/">App</a>
+                        </div>
+                </div>                
+            </div>
+
+            <div className='divBox'>
                 <h1 className='title'>NBA Team App</h1>
                 <img src="src/images/NBATeamappimg.PNG" alt="" height= '50%' width='50%'/>
                 <div className='boxSize'>
@@ -28,7 +43,7 @@ const Projects = () =>{
                 <img src="src/images/websearchimage.PNG" alt="" height='50%' width='50%'/>
                 <div className='boxSize'>
                     <p>This is a web search engine utilizing only Html and Css. 
-                        One of my early projects to show what I could to without JavaScript or any other libraries. 
+                        One of my early projects to show what I could do without JavaScript or any other libraries. 
                         It acts very similar to a real search engine but without a server and data.</p>
                         <div>
                             <a className ='aButton' href="https://github.com/juang274/project-1"> Code</a>
