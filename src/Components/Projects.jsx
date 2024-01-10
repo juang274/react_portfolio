@@ -40,7 +40,7 @@ const Projects = () =>{
 
             <div className='divBox'>
                 <h1 className='title'>Web Search Engine</h1>
-                <div className='searchimage'></div>
+                <img src="src/images/websearchimage.PNG" alt="" height= '50%' width='50%'/>
                 <div className='boxSize'>
                     <p>This is a web search engine utilizing only Html and Css. 
                         One of my early projects to show what I could do without JavaScript or any other libraries. 
