@@ -10,7 +10,7 @@ const Projects = () =>{
         >
             <div className='divBox'>
                 <h1 className='title'>My Portfolio</h1>
-                <img src="/src/images/Portfolio.PNG" alt="" height= '50%' width='50%'/>
+                <img src="images/Portfolio.PNG" alt="" height= '50%' width='50%'/>
                 <div className='boxSize'>
                     <p>This is my personal portfolio containing my projects and my contacts. 
                         The portfolio uses React.js as the JavaScript library. 
@@ -25,7 +25,7 @@ const Projects = () =>{
 
             <div className='divBox'>
                 <h1 className='title'>NBA Team App</h1>
-                <img src="/src/images/NBATeamappimg.PNG" alt="" height= '50%' width='50%'/>
+                <img src="images/NBATeamappimg.PNG" alt="" height= '50%' width='50%'/>
                 <div className='boxSize'>
                     <p>This web app is an NBA app which shows all 30 NBA teams. 
                         Each team when hovered will show their best or their franchise player from that team. 
@@ -40,7 +40,7 @@ const Projects = () =>{
 
             <div className='divBox'>
                 <h1 className='title'>Web Search Engine</h1>
-                <img src="src/images/websearchimage.PNG" alt="" height= '50%' width='50%'/>
+                <img src="images/websearchimage.PNG" alt="" height= '50%' width='50%'/>
                 <div className='boxSize'>
                     <p>This is a web search engine utilizing only Html and Css. 
                         One of my early projects to show what I could do without JavaScript or any other libraries. 
